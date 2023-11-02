@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF4500;
+	color: #ffffff;
+	font-size: 13px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	height: 10vh;
+}
+
+.brand {
+    display: flex; 
+    width: 15%;
+    padding: 5px 0;
+    justify-content: space-around;
+}
+
+.title {
+    width: 85%;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.off-button {
+    width: 5%;
+    text-align: center;
+    padding: 5px 0;
+    margin-top:5px;
+    display: flex; 
+    align-items: center;
+}
+
+nav {
+    width: 15%;
+    background-color: #F8F8FF;
+    float: left;
+    height: 80vh;
+    
+}
+
+article {
+    width: 85%;
+    float: left;
+    text-align: left;
+    height: 80vh	
+}
+
+.logon {
+    margin-top: 100px;    
+    width: 100%;
+    float: left;
+    text-align: center;
+    align-items: center;
+    height: 70vh
+}
+
+input[type=button], input[type=submit] {
+    background-color: #FF4500;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.inputtx {
+    padding: 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    }
+
+.menu-button-container {
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.menu-button {
+    width: 60%;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #FF4500;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-button span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.menu-button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.menu-button:hover span {
+    padding-right: 15px;
+}
+
+.menu-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.menu-button:hover {
+    background-color: #ff6347;
+    color: #ffffff;
+}
+
+.menu-button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background: #ff6347;
+    color: #ffffff;
+}
+
+h4, h5, h6 {
+    text-align: center;
+    color: #FF4500;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #F8F8FF;
+    clear: both;
+    text-align: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+

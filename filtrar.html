@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/content.css">
+</head>
+<body>
+    <form action = "https://pc-dev-nercolini.000webhostapp.com/suspeitos/filtro.php" method="post">    
+    <h3>Selecione as características para filtrar os suspeitos</h3>
+    
+    <label>Idade: </label><br><input class="inputtx" type="text" name="idadeini" maxlength="3" value="18"> a
+                              <input class="inputtx" type="text" name="idadefim" maxlength="3" value="99"><br><br>
+    
+    <label>Sexo: </label><br>
+            <select id="sexo" name="sexo">
+            <option value="">Selecione</option>
+            <option value="Feminino">Feminino</option>    
+            <option value="Masculino">Masculino</option>
+            </select><br><br>
+                        
+    <label>Altura: </label><br>
+            <select id="altura" name="altura">
+            <option value="">Selecione</option>
+            <option value="Baixo">Baixo</option>    
+            <option value="Médio">Médio</option>
+            <option value="Alto">Alto</option>
+            </select><br><br>
+    
+    <label>Cor dos Cabelos:</label><br>
+            <select id="cabelos_cor" name="cabelos_cor">
+            <option value="">Selecione</option>
+            <option value="Ruivo">Ruivo</option>
+            <option value="Preto">Preto</option>
+            <option value="Castanho">Castanho</option>
+            <option value="Loiro">Loiro</option>
+            </select><br><br>
+                        
+    <label>Cor dos Olhos: </label><br>
+            <select id="olhos_cor" name="olhos_cor">
+            <option value="">Selecione</option>
+            <option value="Azul">Azul</option>    
+            <option value="Verde">Verde</option>
+            <option value="Castanho">Castanho</option>
+            </select><br><br>
+                        
+    <label>Barba: </label><br>
+            <select id="barba" name="barba">
+            <option value="">Selecione</option>
+            <option value="Sim">Sim</option>    
+            <option value="Não">Não</option>
+            </select><br><br>
+                        
+    <label>Tatoos: </label><br>
+            <select id="tatoos" name="tatoos">
+            <option value="">Selecione</option>
+            <option value="Sim">Sim</option>    
+            <option value="Não">Não</option>
+            </select><br><br>
+    
+    <label>Óculos:</label><br>
+            <select id="oculos" name="oculos">
+            <option value="">Selecione</option>
+            <option value="Sim">Sim</option>    
+            <option value="Não">Não</option>
+            </select><br><br>
+                        
+    <label>Cicatrizes:</label><br>
+            <select id="cicatrizes" name="cicatrizes">
+            <option value="">Selecione</option>
+            <option value="Sim">Sim</option>    
+            <option value="Não">Não</option>
+            </select><br><br>
+                        
+    <label>Tamanho dos Pés: </label><br>
+            <select id="pes_tam" name="pes_tam">
+            <option value="">Selecione</option>
+            <option value="Pequeno">Pequeno</option>
+            <option value="Médio">Médio</option>
+            <option value="Grande">Grande</option>
+            </select><br><br>
+    
+    <input type ="submit" formtarget="_self" value="Consultar">
+    </form>
+    
+</body>
+</html>
