@@ -11,7 +11,7 @@ Uma aplicação web desenvolvida como parte do curso de Desenvolvimento de Siste
 - **Interface simples e funcional** em HTML e CSS, com lógica backend em PHP.
 - **Autenticação básica**: acesso via login com usuário e senha padrão (visitante/visitante).  
 - **Banco de dados MySQL** para persistência dos dados.
-- **A aplicação utiliza variáveis de sessão em PHP para controle de autenticação, assegurando persistência de login e restrição de acesso às operações do sistema.  
+- **Controle de sessão**: utiliza variáveis de sessão em PHP para controle de autenticação, assegurando persistência de login e restrição de acesso às operações do sistema.  
 
 ---
 
