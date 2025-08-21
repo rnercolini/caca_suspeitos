@@ -26,6 +26,33 @@ Uma aplicação web desenvolvida como parte do curso de Desenvolvimento de Siste
 
 ---
 
+##  Pontos de Destaque
+
+- Demonstra entendimento de um ciclo completo de **CRUD** em ambiente web.
+- Apresenta integração entre front-end e back-end em um projeto real.
+- Mostra habilidade com **PHP e MySQL**, tecnologias amplamente utilizadas em aplicações legadas ou corporativas.
+- Exemplo de aplicação funcional com back-end simples e interface acessível.
+
+---
+
+##  Possíveis Melhorias Futuras
+
+- Implementar autenticação mais robusta (ex: hashing de senhas, sessões seguras).
+- Aplicar AJAX para operações dinamicamente assíncronas — evitando reload completo da página.
+- Adotar frontend mais moderno (React, Vue ou framework leve) para melhor experiência do usuário.
+- Validar formulários no front-end (JavaScript) e melhorar a usabilidade visual.
+- Preparar migração para APIs RESTful e uso de um framework PHP moderno (Laravel, Symfony, etc.).
+
+---
+
+##  Contato & Contribuições
+
+Desenvolvido por **Rodrigo Nercolini** como parte do curso Técnico de Desenvolvimento de Sistemas.  
+Pull requests, sugestões ou melhorias são bem-vindas!  
+Abra uma _issue_ no repositório ou me contate via LinkedIn.
+
+---
+
 ##  Como Acessar
 
 1. Clone o repositório e explore localmente as páginas PHP, formulários e estrutura de banco.
